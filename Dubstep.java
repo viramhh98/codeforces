@@ -20,3 +20,5 @@ public class Dubstep {
         }        System.out.println(ans);
     }
 }
+
+// public class z{public static void main(String[]A){System.out.print(new java.util.Scanner(System.in).next().replaceAll("WUB"," "));}}
