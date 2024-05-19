@@ -36,36 +36,37 @@ public class Dragons {
     }
 }
 
-
 // import java.util.Arrays;
 // import java.util.Scanner;
- 
+
 // public class A230 {
 //     public static void main(String[] args) {
-//         Scanner sc=new Scanner(System.in);
-//         int initial=sc.nextInt();
-//         int n=sc.nextInt();
-//         int[][]arr=new int[n][2];
+//         Scanner sc = new Scanner(System.in);
+//         int initial = sc.nextInt();
+//         int n = sc.nextInt();
+//         int[][] arr = new int[n][2];
 //         for (int i = 0; i < arr.length; i++) {
-//             arr[i][0]=sc.nextInt();
-//             arr[i][1]=sc.nextInt();
+//             arr[i][0] = sc.nextInt();
+//             arr[i][1] = sc.nextInt();
 //         }
 //         sc.close();
-//         Arrays.sort(arr,(a,b)->a[0]==b[0]?a[1]-b[1]:a[0]-b[0]);
-//         int i=0;
-//         for ( i = 0; i < arr.length; i++) {
-//             if(initial>arr[i][0]){
-//                 initial+=arr[i][1];
-//             }else{
-//                 initial=-1;
+        
+//         // Correct sorting with comparator
+//         Arrays.sort(arr, (a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
+        
+//         int i = 0;
+//         for (i = 0; i < arr.length; i++) {
+//             if (initial > arr[i][0]) {
+//                 initial += arr[i][1];
+//             } else {
+//                 initial = -1;
 //                 break;
 //             }
-//             // System.out.println(initial);
 //         }
-//         if(initial==-1){
+//         if (initial == -1) {
 //             System.out.println("NO");
-//         }else{
+//         } else {
 //             System.out.println("YES");
 //         }
 //     }
- 	
+// }
