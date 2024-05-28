@@ -22,3 +22,28 @@ public class Cheap_Travel {
         }
     }
 }
+
+
+// import java.util.Scanner;
+ 
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         int n = scanner.nextInt();
+//         int m = scanner.nextInt();
+//         int a = scanner.nextInt();
+//         int b = scanner.nextInt();
+        
+//         int cost = 0;
+ 
+//         if (m * a <= b) {
+//             // It's cheaper to buy only one-ride tickets.
+//             cost = n * a;
+//         } else {
+//             // It's cheaper to buy m-ride tickets.
+//             cost = (n / m) * b + Math.min((n % m) * a, b);
+//         }
+        
+//         System.out.println(cost);
+//     }
+// }
