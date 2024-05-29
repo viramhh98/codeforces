@@ -4,7 +4,6 @@ for i in range(0 , 2070):
         pass
     else:
         l.append(i)
-# print(l)
 test=int(input())
 for i in range(test):
     print(l[int(input())-1])
